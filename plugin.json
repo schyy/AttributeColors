@@ -3,6 +3,16 @@
     "description"       :"insert your atribute colors as images into the item shown in the itemlist or in the category view",
     "namespace"         :"AttributeColors",
     "author"            :"Benjamin Kosinski",
-    "type"              :"template",
-    "serviceProvider"   :"AttributeColors\\Providers\\AttributeColorsServiceProvider"
+    "keywords"              : ["attribute", "colors", "itemList", "template"],
+    "type"                  :"template",
+    "require"               : [],
+    "serviceProvider"       :"AttributeColors\\Providers\\AttributeColorsServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"AttributeColors\\Containers\\AttributeColorsContainer",
+            "name"          :"AttributeColors",
+            "description"   :"insert your atribute colors as images into the item shown in the itemlist or in the category view"
+        }
+    ]
 }

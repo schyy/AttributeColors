@@ -1,0 +1,9 @@
+[
+    {
+        "tab"                         : "AttributeColors settings",
+        "key"                         : "AttributeColors.text",
+        "label"                       : "AttributeColors text",
+        "type"                        : "text",
+        "default"                     : "This is AttributeColors"
+    }
+]
