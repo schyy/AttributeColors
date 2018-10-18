@@ -6,4 +6,18 @@
         "type"                        : "text",
         "default"                     : "This is AttributeColors"
     }
+    {
+        "tab"                         : "REST User",
+        "key"                         : "rest.user",
+        "label"                       : "Username",
+        "type"                        : "text",
+        "default"                     : ""
+    },
+    {
+        "tab"                         : "REST User",
+        "key"                         : "rest.pass",
+        "label"                       : "Password (Klartext)",
+        "type"                        : "password",
+        "default"                     : ""
+    },
 ]

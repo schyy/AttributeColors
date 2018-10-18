@@ -11,3 +11,4 @@ class AttributeColorsContainer
         return $twig->render('AttributeColors::content.colors');
     }
 }
+?>
