@@ -44,7 +44,7 @@ class AttributeColorsExtension extends Twig_Extension
     {
       return [
         $this->factory->createSimpleFunction('getFree', [$this, 'getFree']),
-        $this->factory->createSimpleFunction('getVars', [$this, 'getVars'])
+        $this->factory->createSimpleFunction('getVars', [$this, 'getVars']),
       ];
     }
     /**
@@ -93,7 +93,7 @@ class AttributeColorsExtension extends Twig_Extension
     // Get Variations
     public function getVars(int $itemID) : array
     {
-      $itemInfo = $this->curl_set($this->url."rest/items/".$itemID."variations");
+      $itemInfo = $this->curl_set($this->url."rest/items/".$itemID."/variations");
       return $itemInfo;
     }
 }
