@@ -13,3 +13,4 @@ class AttributeColorsRouteServiceProvider extends RouteServiceProvider
       $router->get('colors','AttributeColors\Controllers\ContentController@showColors');
     }
 }
+?>

@@ -17,3 +17,4 @@ class AttributeColorsServiceProvider extends ServiceProvider
       $this->getApplication()->register(AttributeColorsRouteServiceProvider::class);
     }
 }
+?>

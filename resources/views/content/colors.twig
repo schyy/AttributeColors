@@ -1,3 +1,18 @@
-{% set AttributeColorsText = config("AttributeColors.AttributeColors.text") %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
 
-<h5>{{ AttributeColorsText }}</h5>
+        <title>Top items</title>
+
+        <!-- CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <div id="page-body">
+            {% set AttributeColorsText = config("AttributeColors.AttributeColors.text") %}
+            <h5>{{ AttributeColorsText }}</h5>
+        </div>
+    </body>
+</html>
