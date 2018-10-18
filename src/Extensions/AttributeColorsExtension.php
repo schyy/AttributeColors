@@ -33,7 +33,7 @@ class AttributeColorsExtension extends Twig_Extension
      */
     public function getName(): string
     {
-        return "theme_extension";
+        return "attributeColors_extension";
     }
 
     /**
@@ -87,6 +87,12 @@ class AttributeColorsExtension extends Twig_Extension
     public function getFree(int $itemID) : array
     {
       $itemInfo = $this->curl_set($this->url."rest/items/".$itemID);
+      return $itemInfo;
+    }
+    // Get Variations
+    public function getVars(int $itemID) : array
+    {
+      $itemInfo = $this->curl_set($this->url."rest/items/".$itemID."variations");
       return $itemInfo;
     }
 }
