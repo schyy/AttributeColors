@@ -44,6 +44,7 @@ class AttributeColorsExtension extends Twig_Extension
     {
       return [
         $this->factory->createSimpleFunction('getFree', [$this, 'getFree']),
+        $this->factory->createSimpleFunction('getVars', [$this, 'getVars'])
       ];
     }
     /**
