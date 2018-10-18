@@ -5,7 +5,7 @@
         "label"                       : "AttributeColors text",
         "type"                        : "text",
         "default"                     : "This is AttributeColors"
-    }
+    },
     {
         "tab"                         : "REST User",
         "key"                         : "rest.user",
@@ -19,5 +19,5 @@
         "label"                       : "Password (Klartext)",
         "type"                        : "password",
         "default"                     : ""
-    },
+    }
 ]
