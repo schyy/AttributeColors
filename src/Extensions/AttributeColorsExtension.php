@@ -1,11 +1,11 @@
 <?php
-#namespace AttributeColors\Extensions;
+namespace AttributeColors\Extensions;
 
-#use Plenty\Modules\System\Contracts\WebstoreRepositoryContract;
-#use Plenty\Plugin\Http\Request;
-#use Plenty\Plugin\ConfigRepository;
-#use Plenty\Plugin\Templates\Extensions\Twig_Extension;
-#use Plenty\Plugin\Templates\Factories\TwigFactory;
+use Plenty\Modules\System\Contracts\WebstoreRepositoryContract;
+use Plenty\Plugin\Http\Request;
+use Plenty\Plugin\ConfigRepository;
+use Plenty\Plugin\Templates\Extensions\Twig_Extension;
+use Plenty\Plugin\Templates\Factories\TwigFactory;
 
 
 
@@ -96,4 +96,4 @@ class AttributeColorsExtension extends Twig_Extension
       $itemInfo = $this->curl_set($this->url."rest/items/".$itemID."/variations");
       return $itemInfo;
     }
-}**/
+}
