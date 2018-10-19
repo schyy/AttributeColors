@@ -10,7 +10,7 @@ class AttributeColorsRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-      $router->get('colors','AttributeColors\Controllers\ContentController@showColors');
+      $router->get('main','AttributeColors\Controllers\ContentController@showColors');
     }
 }
 ?>
