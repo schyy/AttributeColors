@@ -33,7 +33,7 @@ class AttributeColorsExtension extends Twig_Extension
      */
     public function getName(): string
     {
-        return "attributeColors_extension";
+        return "AttributeColorsExtension";
     }
 
     /**
