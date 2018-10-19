@@ -11,7 +11,7 @@ class ContentController extends Controller
 {
     public function showColors(Twig $twig):string
     {
-        return $twig->render('AttributeColors::content.colors');
+        return $twig->render('AttributeColors::content.main');
     }
 }
 ?>
