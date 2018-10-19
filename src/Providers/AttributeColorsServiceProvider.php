@@ -14,9 +14,7 @@ class AttributeColorsServiceProvider extends ServiceProvider
 
     public function register()
     {
-
-      $twig = new Twig_Environment($this->getApplication()->register(AttributeColorsRouteServiceProvider::class));
-      $twig->addExtension(AttributeColorsExtension::class);
+      $this->getApplication()->register(AttributeColorsRouteServiceProvider::class);
     }
 
 }

@@ -8,7 +8,7 @@ class AttributeColorsContainer
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('AttributeColors::content.main');
+        return $twig->render('AttributeColors::content.colors');
     }
 }
 ?>
