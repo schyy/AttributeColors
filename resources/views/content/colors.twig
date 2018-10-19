@@ -1,5 +1,4 @@
 <div class="attributeColors">
-  {% set image = getVars(8020) %}
-  {{ image }}
-  {{ image.Variations }}
+  {% set image = getVars(itemData) %}
+  {{ image[0] }}
 </div>
